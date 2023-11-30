@@ -27,3 +27,4 @@ class Cleric {
     return mp;
   }
 }
+//
