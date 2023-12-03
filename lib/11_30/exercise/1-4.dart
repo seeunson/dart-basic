@@ -18,7 +18,7 @@ class Cleric {
     int min = 0;
     int max = 2;
     int plusmp = Random().nextInt(max - min + 1) + sec;
-    if (mp <= maxMp) {
+    if (mp < maxMp) {
       mp = mp + plusmp;
       if (mp + plusmp > 10) mp = maxMp;
     } else {
